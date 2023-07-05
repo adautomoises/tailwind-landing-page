@@ -16,17 +16,17 @@ export function BenefitsAndAdvantages() {
       <div className="flex flex-col md:flex-row p-4 gap-10 md:gap-2 lg:gap-10">
         {[
           [
-            "src/assets/speed-meter.svg",
+            "../src/assets/speed-meter.svg",
             "Velocidade no anúncio",
             "Publique sua vaga em menos de 5 minutos, e seja visto por milhares de profissionais.",
           ],
           [
-            "src/assets/target.svg",
+            "./src/assets/target.svg",
             "Específico",
             "Seu anúncio é direcionado para  os profissinais que atendam aos requisitos, evitando dispercío de tempo e dinheiro.",
           ],
           [
-            "src/assets/ficha.svg",
+            "/src/assets/ficha.svg",
             "Mensúravel",
             "A empresa consegue dimensionar a quantidade  e qualidade dos profissionais que se canditam na sua vaga.",
           ],
