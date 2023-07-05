@@ -1,3 +1,4 @@
+import oquefazemos from "../../../../assets/oquefazemos.jpg";
 import { ImageWrapper } from "../../../../components/ImageWrapper";
 import { SectionWrapper } from "../../../../components/SectionWrapper";
 
@@ -8,7 +9,7 @@ export function WhatDoWeDo() {
       className="flex lg:flex-row flex-col items-center sm:p-4 md:p-8 lg:p-16 xl:p-20"
     >
       <ImageWrapper
-        image={"src/assets/oquefazemos.jpg"}
+        image={oquefazemos}
         alt={"Profissionais de Metalmecânica reunidos apresentando-se."}
       />
       <SectionWrapper

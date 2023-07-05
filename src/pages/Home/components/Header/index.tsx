@@ -1,4 +1,7 @@
 import { useState } from "react";
+import logo from "../../../../assets/metalvagas_logo.svg";
+import open from "../../../../assets/menu_mobile.svg";
+import close from "../../../../assets/menu_mobile_close.svg";
 
 export function Header() {
   const [showMenu, setShowMenu] = useState(false);
@@ -10,11 +13,7 @@ export function Header() {
   return (
     <div className="h-28 flex justify-between items-center bg-[#FFA41D] py-4 border-b-[1px]">
       <a href="#inicio">
-        <img
-          className="max-w-[12rem] pl-10"
-          src="src/assets/metalvagas_logo.svg"
-          alt="Logo MetalVagas"
-        />
+        <img className="max-w-[12rem] pl-10" src={logo} alt="Logo MetalVagas" />
       </a>
       <nav className="pr-5 max-[768px]:hidden">
         <ul className="flex flex-row items-center px-4 gap-8 text-white">
@@ -42,7 +41,7 @@ export function Header() {
       <button className="pr-5 min-[769px]:hidden" onClick={handleMenuMobile}>
         <img
           className="max-w-[12rem]"
-          src="src/assets/menu_mobile.svg"
+          src={open}
           alt="Três traços horizontais representando o Menu de navegação mobile."
         />
       </button>
@@ -55,8 +54,8 @@ export function Header() {
               onClick={handleMenuMobile}
             >
               <img
-                src="src/assets/menu_mobile_close.svg"
-                alt="Três traços horizontais representando o Menu de navegação mobile."
+                src={close}
+                alt="Icone X representando o fechamento do Menu de navegação mobile."
               />
             </button>
           </div>

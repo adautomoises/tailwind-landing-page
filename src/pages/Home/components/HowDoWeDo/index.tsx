@@ -1,3 +1,4 @@
+import comofazemos from "../../../../assets/comofazemos.jpg";
 import { ImageWrapper } from "../../../../components/ImageWrapper";
 import { SectionWrapper } from "../../../../components/SectionWrapper";
 
@@ -17,7 +18,7 @@ export function HowDoWeDo() {
         ]}
       />
       <ImageWrapper
-        image={"src/assets/comofazemos.jpg"}
+        image={comofazemos}
         alt={"Profissionais de Metalmecânica reunidos apresentando-se."}
       />
     </div>

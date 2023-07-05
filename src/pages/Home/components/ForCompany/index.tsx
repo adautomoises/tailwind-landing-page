@@ -1,3 +1,4 @@
+import paraempresas from "../../../../assets/paraempresas.jpg";
 import { ImageWrapper } from "../../../../components/ImageWrapper";
 import { SectionWrapper } from "../../../../components/SectionWrapper";
 
@@ -8,7 +9,7 @@ export function ForCompany() {
       className="flex lg:flex-row flex-col items-center sm:p-4 md:p-8 lg:p-16 xl:p-20"
     >
       <ImageWrapper
-        image={"src/assets/paraempresas.jpg"}
+        image={paraempresas}
         alt={"Profissionais de Metalmecânica reunidos apresentando-se."}
       />
       <SectionWrapper

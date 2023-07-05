@@ -1,3 +1,4 @@
+import paraprofissionais from "../../../../assets/paraprofissionais.jpg";
 import { ImageWrapper } from "../../../../components/ImageWrapper";
 import { SectionWrapper } from "../../../../components/SectionWrapper";
 
@@ -19,7 +20,7 @@ export function ForProfessionals() {
         ]}
       />
       <ImageWrapper
-        image={"src/assets/paraprofissionais.jpg"}
+        image={paraprofissionais}
         alt={"Profissionais de Metalmecânica reunidos apresentando-se."}
       />
     </div>

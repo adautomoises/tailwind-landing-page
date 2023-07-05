@@ -1,3 +1,5 @@
+import faq from "../../../../assets/faq.png";
+
 export function FAQ() {
   return (
     <section id="FAQ" className="flex flex-col justify-center align-middle">
@@ -44,7 +46,7 @@ export function FAQ() {
         <div className="p-2 flex items-end pb-0">
           <img
             className="object-contain w-full"
-            src="src/assets/faq.png"
+            src={faq}
             alt="Um homem se vestindo como profissional de Metalmecânica, segurando uma prancheta e usando um EPI laranja na cabeça."
           />
         </div>
